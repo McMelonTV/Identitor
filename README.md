@@ -1,5 +1,11 @@
 # Identitor
-## A seeded random user information generator
+## A seeded random user information generator in NodeJS
+
+### Usage
+1. Install NodeJS
+2. Clone this repository
+3. Run `npm install`
+4. Run `npm run start` to generate a random user
 
 ### Data
 - [x] Name
