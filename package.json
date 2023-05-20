@@ -1,6 +1,5 @@
 {
 	"name": "identitor",
-	"type": "module",
 	"version": "0.1.0-dev",
 	"description": "An API for generating random user information.",
 	"main": "build/index.js",
@@ -15,9 +14,11 @@
 	},
 	"author": "McMelonTV",
 	"dependencies": {
+		"@types/seedrandom": "^3.0.5",
 		"canvas": "^2.11.2",
 		"discord.js": "^14.8.0",
-		"fastify": "^4.17.0"
+		"fastify": "^4.17.0",
+		"seedrandom": "^3.0.5"
 	},
 	"devDependencies": {
 		"@types/node": "^18.16.3",

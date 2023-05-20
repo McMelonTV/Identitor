@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Visa",
+		"type": "credit,debit,prepaid",
+		"prefix": "4",
+		"checkdigit": true
+	},
+	{
+		"name": "MasterCard",
+		"type": "credit,debit,prepaid",
+		"prefix": "51,52,53,54,55",
+		"checkdigit": true
+	},
+	{
+		"name": "American Express",
+		"type": "credit,debit,prepaid",
+		"prefix": "34,37",
+		"checkdigit": true
+	},
+	{
+		"name": "Diners Club",
+		"type": "credit,debit,prepaid",
+		"prefix": "300,301,302,303,304,305,36,38,39",
+		"checkdigit": true
+	},
+	{
+		"name": "Discover",
+		"type": "credit,debit,prepaid",
+		"prefix": "6011,622,64,65",
+		"checkdigit": true
+	},
+	{
+		"name": "JCB",
+		"type": "credit,debit,prepaid",
+		"prefix": "35",
+		"checkdigit": true
+	},
+	{
+		"name": "Maestro",
+		"type": "debit,prepaid",
+		"prefix": "5018,5020,5038,6304,6759,6761,6762,6763",
+		"checkdigit": true
+	},
+	{
+		"name": "Visa Electron",
+		"type": "debit,prepaid",
+		"prefix": "4026,417500,4508,4844,4913,4917",
+		"checkdigit": true
+	}
+]
