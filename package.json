@@ -1,0 +1,27 @@
+{
+	"name": "identitor",
+	"type": "module",
+	"version": "0.1.0-dev",
+	"description": "An API for generating random user information.",
+	"main": "build/index.js",
+	"scripts": {
+		"clean": "rimraf ./build",
+		"build": "npm run clean && tsc -p ./tsconfig.json",
+		"start": "npm run build && node build/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/McMelonTV/Identitor.git"
+	},
+	"author": "McMelonTV",
+	"dependencies": {
+		"canvas": "^2.11.2",
+		"discord.js": "^14.8.0",
+		"fastify": "^4.17.0"
+	},
+	"devDependencies": {
+		"@types/node": "^18.16.3",
+		"rimraf": "^5.0.0",
+		"typescript": "^5.0.4"
+	}
+}

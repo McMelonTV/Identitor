@@ -1,0 +1,5 @@
+/apiKeys.sqlite
+/node_modules
+/log
+/build
+/.vscode
